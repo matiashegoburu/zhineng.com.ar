@@ -1,0 +1,57 @@
+- title: "Home"
+  url: "/"
+  side: left
+
+- title: "Acerca de"
+  side: left
+  dropdown:
+  - title: "Zhineng Qigong"
+    url: "/acerca-de/que-es-zhineng-qigong/"
+  - title: "Nuestros valores"
+    url: "/acerca-de/nuestros-valores/"
+  - title: "Matías Hegoburu"
+    url: "/acerca-de/matias-hegoburu/"
+
+- title: "Clases"
+  url: "/clases/"
+  side: left
+
+- title: "Actividades"
+  url: "/actividades/"
+  side: left
+  dropdown:
+  - title: "Taller: 8 ejercicios fundamentales"
+    url: "/actividades/talleres/8-ejercicios-fundamentales/"
+  - title: "Taller: Zhineng I"
+    url: "/actividades/talleres/zhineng-I/"
+  - title: "Charla: El Qi y el Qigong"
+    url: "/actividades/charlas/el-qi-y-el-qigong/"
+  - title: "Charla: El Yiyuanti"
+    url: "/actividades/charlas/el-yiyuanti/"
+  - title: "Practica: Encuentros de autosanación"
+    url: "/actividades/practicas/encuentros-de-autosanacion/"
+  - title: "Practica: Encuentros de luna llena"
+    url: "/actividades/practicas/encuentros-de-luna-llena/"
+
+- title: "Agenda"
+  url: "/agenda/"
+  side: left
+
+- title: "Galería"
+  url: "/galeria/"
+  side: left
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+- title: "Contacto"
+  url: "/contacto/"
+  side: right

@@ -1,0 +1,41 @@
+---
+layout: page
+---
+{% if page.evento.bannerGrande %}
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/actividades/{{ page.evento.bannerGrande }}" />
+{% endif %}
+
+{{ page.evento.descripcion }}
+
+<ul>
+ {% if page.evento.cuando %}
+ <li><b>Cuando: </b> {{ page.evento.cuando | date_to_string }} </li>
+ {% endif %}
+ {% if page.evento.donde %}
+ <li><b>Donde: </b> {{ page.evento.donde }}</li>
+ {% endif %}
+ {% if page.evento.inversion %}
+ <li><b>Inversión: </b>{{ page.evento.inversion }}</li>
+ {% endif %}
+ {% if page.evento.facilita %}
+ <li><b>Facilita: </b> {{ page.evento.facilita }}</li>
+ {% endif %}
+ {% if page.evento.linkFacebook %}
+ <li><b><a href="{{ page.evento.linkFacebook }}">Click aquí para ver el evento en Facebook</a></li>
+ {% endif %}
+</ul>
+
+<p>Para informes e inscripción:</p>
+<ul>
+ <li>info@zhineng.com.ar</li>
+ <li>(0351) 15-246-8058</li>
+</ul>
+
+{% if page.evento.googleMap %}
+<h2>Ubicación</h2>
+{{ page.evento.googleMap }}
+{% endif %}
+
+<h2>Detalles</h2>
+{{ content }}
+
