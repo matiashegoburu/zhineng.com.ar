@@ -36,6 +36,7 @@ format: blog-index
 * Show next event in the agenda
 *
 {% endcomment %}
+{% assign posts = site.posts | where:"category","agenda" | sort:"cuando" %}
 {% assign evento = site.posts | where:"category","agenda" | sort:"cuando" | last %}
 {% unless evento == empty %}
     {% if evento.cuando > site.time %}

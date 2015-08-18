@@ -1,11 +1,18 @@
 ---
-layout: page
+layout: actividad
 show_meta: false
 title: "Zhineng I"
 teaser: "El método de Elevar y Volcar, y la Unión de los tres centros"
 header:
    image_fullwidth: "header_homepage_13.jpg"
 permalink: "/actividades/talleres/zhineng-I/"
+actividad: "taller-zhineng-I"
+duracion: 
+ - "Formato 1: 3 horas"
+ - "Formato 2: 1 jornada, dividida en 2 bloques de 4 horas (8 horas total)"
+ - "Formato 3: 2 jornadas, divididas cada una en 2 bloques de 4 horas (16 horas total)"
+
+requisitos: "No hay requisitos previos, aunque se sugiere haber cursado el taller '8 Ejercicios Fundamentales y el uso de la mente'"
 ---
 <p>Zhineng I es el primer nivel de Zhineng, y es la esencia de la práctica. El objetivo de Zhineng I es por un lado, desbloquear y fortalecer el mecanismo de intercambio de energía entre lo interno y lo externo, y por otro lado, acumular Qi en el Dantien inferior.</p>
 <p>Zhineng propone que todo lo que existe es energía, inclusive nuestro cuerpo, y que todo esta conectado entre sí, intercambiando energía e información de forma constante. En el ser humano, cuando este proceso de intercambio se debilita o bloquea, aparece la enfermedad. Aquí es donde la enfermedad comienza, y este es el primer lugar que debemos sanar para lograr una sanación rápida y efectiva. Cuando la persona ya esta sana, fortalecer este proceso logra un estado de salud extraordinario y la conciencia comienza a desarrollarse.</p>
@@ -17,14 +24,4 @@ permalink: "/actividades/talleres/zhineng-I/"
   <li>Teoría y práctica del método de Elevar y Volcar el Qi</li>
   <li>Teoría y práctica del método de La Meditación de pie para la Unión de los tres centros</li>
  </ul>
- <b>Duración:</b>
- <ul>
-  <li>Formato 1: 3 horas</li>
-  <li>Formato 2: 1 jornada, dividida en 2 bloques de 4 horas (8 horas total)</li>
-  <li>Formato 3: 2 jornadas, divididas cada una en 2 bloques de 4 horas (16 horas total)</li>
- </ul>
- <b>Requisitos previos:</b> No hay requisitos previos, aunque se sugiere haber cursado el taller "8 Ejercicios Fundamentales y el uso de la mente"<br/>
- <br/>
- <form action="/p/calendario.html">
-  <input type="submit" value="Próximas fechas"/>
- </form>
+

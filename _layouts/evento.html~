@@ -1,16 +1,17 @@
 ---
 layout: page
+format: post
 category: agenda
 ---
 {% if page.evento.bannerGrande %}
 <img src="{{ site.url }}{{ site.baseurl }}/assets/img/actividades/{{ page.evento.bannerGrande }}" />
 {% endif %}
 
-{{ page.evento.descripcion }}
+<p>{{ page.evento.descripcion }}</p>
 
 <ul>
  {% if page.evento.cuando %}
- <li><b>Cuando: </b> {{ page.evento.cuando | date_to_string }} </li>
+ <li><b>Cuando: </b> {{ page.evento.cuando | date_to_rfc822 }} </li>
  {% endif %}
  {% if page.evento.donde %}
  <li><b>Donde: </b> {{ page.evento.donde }}</li>

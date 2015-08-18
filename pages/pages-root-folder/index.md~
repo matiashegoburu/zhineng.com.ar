@@ -20,7 +20,7 @@ widget2:
 widget3:
   title: "Participá de una actividad"
   url: '/agenda/'
-  image: participaActividad.jpg
+  image: github-303x182.jpg
   text: 'Anotate para participar de alguna de nuestras múltiples actividades y profundiza tu experiencia: charlas, talleres y retiros.'
 permalink: /index.html
 ---

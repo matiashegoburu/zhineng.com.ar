@@ -1,0 +1,18 @@
+---
+layout: evento
+title:  "Evento de prueba"
+teaser: "este es un evento de prueba"
+evento:
+	bannerGrande: http://bannerGrande.jpg
+	bannerChico: http://bannerChico.jpg
+	titulo: "titulo"
+	descripcion: "descripcion"
+	actividad: "8-ejercicios-fundamentales"
+	cuando: 2015-08-14
+	donde: "donde"
+	facilita: "Matias"
+	inversion: "$50"
+---
+<!--more-->
+
+
