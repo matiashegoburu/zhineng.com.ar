@@ -13,11 +13,40 @@ permalink: "/agenda/"
 {% if items.size == 0 %}
 No hay eventos programados
 {% else %}
- {% for item in items %}
+ {% for item in items reversed %}
   {%  if forloop.index == 1 %}
+<div class="row t30 b20 homepage">
+<div class="small-12 columns">
+<h2>{{ site.data.language.upcoming_events }}</h2>
+{% if evento.image.homepage %}
+<p>
+<a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}" title="{{ item.title escape_once }}"><img width="970" src="{{ site.urlimg }}{{ item.image.homepage }}" alt="{{ page.title escape_once }}"></a>
+</p>
+
+{% if item.image.caption_url && item.image.caption %}
+<p class="text-right caption">
+<a href="{{ item.image.caption_url }}">{{ item.image.caption }}</a>
+</p>
+{% endif %}
+{% endif %}
+</div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+
+
+<div class="row">
+<div class="small-12 columns">
+{% if item.subheadline %}<p class="subheadline">{{ item.subheadline }}</p>{% endif %}
+<h2><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h2>
+<p>
+{% if item.meta_description %}{{ item.meta_description | strip_html | escape }}{% else item.teaser %}{{ item.teaser | strip_html | escape }}{% endif %}
+<a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}" title="Read {{ item.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+</p>
+</div><!-- /.medium-5.columns -->
+</div><!-- /.row -->
+
 <h2>Próximo evento: <a href="{{ item.url }}">{{ item.title }}</a></h2>
 <div class="row">
- <div class="small-12 columns"><img src="{{ item.evento.bannerGrande }}" /></div>
+ <div class="small-12 columns"><img src="{{ site.urlimg }}{{ item.image.homepage }}" /></div>
 </div>
 <div class="row">
  <div class="small-12 columns">{{ item.teaser }}</div>

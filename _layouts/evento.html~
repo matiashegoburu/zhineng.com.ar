@@ -3,27 +3,27 @@ layout: page
 format: post
 category: agenda
 ---
-{% if page.evento.bannerGrande %}
-<img src="{{ site.url }}{{ site.baseurl }}/assets/img/actividades/{{ page.evento.bannerGrande }}" />
+{% if page.bannerGrande %}
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/actividades/{{ page.bannerGrande }}" />
 {% endif %}
 
-<p>{{ page.evento.descripcion }}</p>
+<p>{{ page.descripcion }}</p>
 
 <ul>
- {% if page.evento.cuando %}
- <li><b>Cuando: </b> {{ page.evento.cuando | date_to_rfc822 }} </li>
+ {% if page.cuando %}
+ <li><b>Cuando: </b> {{ page.cuando | date_to_rfc822 }} </li>
  {% endif %}
- {% if page.evento.donde %}
- <li><b>Donde: </b> {{ page.evento.donde }}</li>
+ {% if page.donde %}
+ <li><b>Donde: </b> {{ page.donde }}</li>
  {% endif %}
- {% if page.evento.inversion %}
- <li><b>Inversión: </b>{{ page.evento.inversion }}</li>
+ {% if page.inversion %}
+ <li><b>Inversión: </b>{{ page.inversion }}</li>
  {% endif %}
- {% if page.evento.facilita %}
- <li><b>Facilita: </b> {{ page.evento.facilita }}</li>
+ {% if page.facilita %}
+ <li><b>Facilita: </b> {{ page.facilita }}</li>
  {% endif %}
- {% if page.evento.linkFacebook %}
- <li><b><a href="{{ page.evento.linkFacebook }}">Click aquí para ver el evento en Facebook</a></li>
+ {% if page.linkFacebook %}
+ <li><b><a href="{{ page.linkFacebook }}">Click aquí para ver el evento en Facebook</a></li>
  {% endif %}
 </ul>
 
@@ -33,11 +33,12 @@ category: agenda
  <li>(0351) 15-246-8058</li>
 </ul>
 
-{% if page.evento.googleMap %}
+{% if page.googleMap %}
 <h2>Ubicación</h2>
-{{ page.evento.googleMap }}
+{{ page.googleMap }}
 {% endif %}
 
+{% unless content == empty %}
 <h2>Detalles</h2>
 {{ content }}
-
+{% endunless %}

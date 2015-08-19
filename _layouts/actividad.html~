@@ -19,22 +19,24 @@ format: post
  <li><b>Requisitos previos:</b> {{ page.requisitos }} </li>
 </ul>
 
-{% assign proximos = site.posts | where:"category","agenda" | where:"actividad",page.actividad | sort:"cuando","last" %}
+{% assign proximos = site.posts | where:"category","agenda" | sort:"cuando","last" %}
 {% assign primero = true %}
 {% if proximos.size > 0 %}
  {% for proximo in proximos %}
   {% if proximo.cuando > site.time %}
    {% if primero %}
     <h2>Próximas fechas programadas</h2>
+    <ul>
     {% assign primero = false %}
    {% endif %}
-   <ul>
    {% for evento in proximos %}
     <li><a href="{{ evento.url }}">{{evento.cuando | date_to_rfc822}}</a></li>
    {% endfor %}
-   </ul>
   {% endif %}
  {% endfor %}
+ {% if primero == false %}
+  </ul>
+ {% endif %}
 {% endif %}
 
 

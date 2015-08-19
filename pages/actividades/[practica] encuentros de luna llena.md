@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: actividad
 show_meta: false
 title: "Práctica: Encuentros de luna llena"
 teaser: "Práctica grupal coordinada a nivel mundial"

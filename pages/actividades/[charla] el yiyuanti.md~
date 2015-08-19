@@ -7,7 +7,8 @@ header:
    image_fullwidth: "header_homepage_13.jpg"
 permalink: "/actividades/charlas/el-yiyuanti/"
 actividad: "charla-el-yiyuanti"
-duracion: "1 hora"
+duracion: 
+- "1 hora"
 requisitos: "No hay requisitos previos"
 ---
  <p>Introducción al tema de la conciencia, sus funciones y aplicaciones dentro de la práctica del Qigong y la sanación. </p>

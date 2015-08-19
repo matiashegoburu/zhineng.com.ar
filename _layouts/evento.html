@@ -38,6 +38,7 @@ category: agenda
 {{ page.googleMap }}
 {% endif %}
 
+{% unless content == "" %}
 <h2>Detalles</h2>
 {{ content }}
-
+{% endunless %}

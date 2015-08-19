@@ -8,11 +8,11 @@
 #                                                 /____/        
 #
 # Title of your website
-title: "Paz, salud, relajación - Zhineng Qigong"
+title: "Zhineng Qigong"
 
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: "Paz, salud, relajación - Zhineng Qigong"
+slogan: "Paz, salud, relajación"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
@@ -41,7 +41,7 @@ urlimg: 'https://matiashegoburu.github.io/zhineng.com.ar/assets/img/'
 
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+logo: "logo.jpg"
 
 
 # Paginates all X entries
