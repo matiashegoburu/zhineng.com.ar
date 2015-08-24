@@ -50,9 +50,9 @@ No hay eventos programados
         </div><!-- /.medium-5.columns -->
     </div><!-- /.row -->
 	<div class="row">
-	 <div class="small-4 columns">Cuándo</div>
-	 <div class="small-4 columns">Dónde</div>
-	 <div class="small-4 columns">Inversión</div>
+	 <div class="small-4 columns"><strong>Cuándo</strong></div>
+	 <div class="small-4 columns"><strong>Dónde</strong></div>
+	 <div class="small-4 columns"><strong>Inversión</strong></div>
 	</div>
 	<div class="row">
 	 <div class="small-4 columns">{{ item.cuando | date_to_rfc822 }}</div>
@@ -61,12 +61,13 @@ No hay eventos programados
 	</div>
   {% else %}
     {% if index == 2 %}
+    <div class="row"><div class="small-12 columns">&nbsp;</div></div>
     <div class="row">
      <div class="small-12 columns">
       <h2>Otros eventos</h2>
        <ul class="side-nav">
     {% endif %}
-        <li><a href="{{ site.url }}{{ item.url }}">{% if item.cuando %}{{ item.cuando | date_to_rfc822 }} &middot; {% endif %}<strong>{{ item.title }}</strong></a></li>
+        <li><a href="{{ site.url }}{{ item.url }}">{% if item.cuando %}{{ item.cuando | date_to_rfc822 }} &middot; {% endif %}{% if item.subheadline %}{{ item.subheadline }} &middot; {% endif %}<strong>{{ item.title }}</strong></a></li>
     {% if forloop.last %}
        </ul>
      </div>

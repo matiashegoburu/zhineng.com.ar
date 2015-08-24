@@ -27,11 +27,7 @@ category: agenda
  {% endif %}
 </ul>
 
-<p>Para informes e inscripción:</p>
-<ul>
- <li>info@zhineng.com.ar</li>
- <li>(0351) 15-246-8058</li>
-</ul>
+<div style="text-align: center"><a href="#" id="btnInscribirme" data-reveal-id="modalInscribirme" class="button large round success">Quiero inscribirme</a></div>
 
 {% if page.googleMap %}
 <h2>Ubicación</h2>
@@ -42,3 +38,59 @@ category: agenda
 <h2>Detalles</h2>
 {{ content }}
 {% endunless %}
+
+<div id="modalInscribirme" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle">Quiero inscribirme al evento: {{ page.title }}</h2>
+  <p>Completa tu correo electrónico y presiona el botón al final del formulario. ¡Así de simple! Nos comunicaremos contigo a la brevedad con todos los detalles. También puedes aprovechar y escribir tu propio mensaje. Responderemos a todas tus dudas.</p>
+  <form id="formInscribirme" action="//formspree.io/info@zhineng.com.ar" method="POST">
+    <input type="hidden" name="_subject" value="Zhineng.com.ar - Inscripcion a evento: {{ page.title }}">
+    <div class="row">
+      <div class="large-12 columns">
+        <label>Tu correo: <input type="email" name="_replyto" placeholder="Ingresa tu dirección de correo electrónico"></label>
+      </div>
+    </div>    
+    <div class="row">
+      <div class="large-12 columns">
+        <label>Mensaje: <textarea name="mensaje">Hola {{ page.facilita }}, me gustaría inscribirme al evento '{{ page.title }}' que se llevará a cabo {{ page.cuando | date_to_rfc822 }}</textarea></label>
+      </div>
+    </div>    
+    <div class="row">
+      <div class="large-12 columns" style="text-align: center">
+        <input type="submit" class="button round success" value="¡Inscribirme!">
+      </div>
+    </div>    
+  </form>
+  <h3>Otras formas de contacto</h3>
+  <p>También puedes ponerte en contacto con nosotros para concretar tu inscrición de las siguientes maneras:</p>
+  <ul>
+    <li><strong>Por correo electrónico: </strong><a href="mailto:info@zhineng.com.ar?subject=Zhineng.com.ar - Inscripcion a evento: {{ page.title }}&body=Hola {{ page.facilita }}, me gustaría inscribirme al evento '{{ page.title }}' que se llevará a cabo {{ page.cuando | date_to_rfc822 }}">info@zhineng.com.ar</a></li>
+    <li><strong>Por celular: </strong>+54 351 15-751-6335</a></li>
+  </ul>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+<div id="modalGracias" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle">¡Todo listo!</h2>
+  <p>Tu inscripción ya ha sido enviada. ¡Nos pondremos en contacto contigo muy pronto!</p>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/javascript.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#formInscribirme").submit(function(event){
+    $.ajax({
+        url: $(this).attr("action"), 
+        method: $(this).attr("method"),
+        data: $(this).serialize(),
+        dataType: "json",
+        success: function() {
+          $("#modalGracias").foundation('reveal','open');
+        }
+    });    
+    event.preventDefault();
+  })
+})
+</script>
+

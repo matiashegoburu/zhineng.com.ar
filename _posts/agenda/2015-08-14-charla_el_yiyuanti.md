@@ -1,12 +1,12 @@
 ---
 layout: evento
-subheadline: "Eventos"
-title:  "Charla: El Yiyuanti"
+subheadline: "Charla"
+title:  "El Yiyuanti"
 teaser: "Introducción al concepto de la conciencia y el qigong"
 category: "agenda"
 descripcion: "Introducción al tema de la conciencia, sus funciones y aplicaciones dentro de la práctica del Qigong y la sanación."
 actividad: "charla-el-yiyuanti"
-cuando: 2015-08-22 10:00:00 -0300
+cuando: 2015-08-29 10:00:00 -0300
 donde: "San José de Calasanz 390"
 facilita: "Matias"
 inversion: "$50"
@@ -15,4 +15,5 @@ image:
   homepage: actividades/charla-el-yiyuanti-large.jpg
 header:
   image_fullwidth: actividades/charla-el-yiyuanti-large.jpg
+permalink: /agenda/2015-08-29-Charla-El-Yiyuanti
 ---

@@ -1,17 +1,19 @@
 ---
 layout: evento
-subheadline: "Eventos"
-title:  "Práctica: Encuentro de Luna Llena"
+subheadline: "Práctica"
+title:  "Encuentro de Luna Llena"
 teaser: "este es un evento de prueba"
 category: "agenda"
-bannerGrande: http://bannerGrande.jpg
-bannerChico: http://bannerChico.jpg
 descripcion: "descripcion"
 actividad: "practica-encuentros-de-luna-llena"
-cuando: 2015-08-29 10:00:00 -0300
+cuando: 2015-08-29 11:00:00 -0300
 donde: "donde"
 facilita: "Matias"
 inversion: "$50"
+googleMap: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.881765187772!2d-64.1980078!3d-31.41738350000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a27fa875426d%3A0xf3f1b59157e2d29a!2sSan+Jos%C3%A9+de+Calasanz+390%2C+C%C3%B3rdoba!5e0!3m2!1sen!2sar!4v1438701473029" width="703" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+image:
+  homepage: actividades/charla-el-yiyuanti-large.jpg
+header:
+  image_fullwidth: actividades/charla-el-yiyuanti-large.jpg
+permalink: /agenda/2015-08-29-Practica-Encuentro-de-Luna-llena
 ---
-
-
