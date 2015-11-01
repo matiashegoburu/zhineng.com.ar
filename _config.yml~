@@ -112,14 +112,19 @@ defaults:
       comments: false
       author: phlow     # Default author for posts
       header: no
-
   -
     scope:
       path: "agenda"
       type: "posts"
     values:
       hidden: true
-
+  -
+    scope:
+      path: "actividades"
+      type: "pages"
+    values:
+      gallery-image: "blog-gallery.png"
+      banner-top-image: "blog-banner-top.png"
 
 #       _   __            _             __  _
 #      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____

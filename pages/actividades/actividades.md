@@ -12,7 +12,7 @@ permalink: "/actividades/"
 <div>
   <ul class="small-block-grid-3">
 {% for page in pages %}
-  <li style="text-align: center;"><a href="{{ page.url }}"><img src="{{ site.url }}{{ site.baseurl }}/assets/img/actividades/{{page.actividad}}/{{ page.gallery-image }}" />{{ page.title }}</a></li>
+  <li style="text-align: center;"><a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}"><img src="{{ site.url }}{{ site.baseurl }}/assets/img/actividades/{{page.actividad}}/{{ page.gallery-image }}" />{{ page.title }}</a></li>
 {% endfor %}
   </ul>
 </div>
