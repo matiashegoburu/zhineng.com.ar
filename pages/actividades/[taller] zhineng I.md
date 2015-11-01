@@ -4,7 +4,7 @@ show_meta: false
 title: "Zhineng I"
 teaser: "El método de Elevar y Volcar, y la Unión de los tres centros"
 header:
-   image_fullwidth: "header_homepage_13.jpg"
+   image_fullwidth: "homeHeader.png"
 permalink: "/actividades/talleres/zhineng-I/"
 actividad: "taller-zhineng-I"
 duracion: 

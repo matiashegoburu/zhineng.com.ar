@@ -1,0 +1,15 @@
+<aside>
+    {% if page.widget1.title %}
+      {% include sidebar-widget widget=page.widget1 %}
+	  {% endif %}
+
+
+	  {% if page.widget2.title %}
+		  {% include sidebar-widget widget=page.widget2 %}
+	  {% endif %}
+
+
+	  {% if page.widget3.title %}
+		  {% include sidebar-widget widget=page.widget3 %}
+	  {% endif %}
+</aside>

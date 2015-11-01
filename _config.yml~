@@ -41,7 +41,7 @@ urlimg: 'https://matiashegoburu.github.io/zhineng.com.ar/assets/img/'
 
 
 # Logo size is 600x80 pixels
-logo: "logo.jpg"
+logo: "logo.png"
 
 
 # Paginates all X entries
@@ -111,6 +111,7 @@ defaults:
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: phlow     # Default author for posts
+      header: no
 
 
 

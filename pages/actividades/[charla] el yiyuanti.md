@@ -7,6 +7,7 @@ header:
   image_fullwidth: actividades/charla-el-yiyuanti-large.jpg
 permalink: "/actividades/charlas/el-yiyuanti/"
 actividad: "charla-el-yiyuanti"
+gallery-image: "blog-gallery.png"
 duracion: 
 - "1 hora"
 requisitos: "No hay requisitos previos"

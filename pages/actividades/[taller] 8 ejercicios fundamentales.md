@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: actividad
 show_meta: false
 title: "8 Ejercicios Fundamentales"
 subheadline: "Ejercicios introductorios"
 teaser: "8 ejercicios para preparar el cuerpo y la mente"
 header:
-   image_fullwidth: "header_homepage_13.jpg"
+   image_fullwidth: "homeHeader.png"
 permalink: "/actividades/talleres/8-ejercicios-fundamentales/"
 actividad: "taller-8-ejercicios-fundamentales"
 duracion: 

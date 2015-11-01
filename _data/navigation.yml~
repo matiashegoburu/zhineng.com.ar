@@ -3,6 +3,7 @@
   side: left
 
 - title: "Acerca de"
+  url: "/acerca-de/que-es-zhineng-qigong/"
   side: left
   dropdown:
   - title: "Zhineng Qigong"

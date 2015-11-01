@@ -4,7 +4,7 @@ show_meta: false
 title: "Clases de Zhineng Qigong"
 teaser: "Lugares y horarios de clases regulares de Zhineng Qigong en Córdoba, Argentina."
 header:
-   image_fullwidth: "header_homepage_13.jpg"
+   image_fullwidth: "homeHeader.png"
 permalink: "/clases/"
 ---
 <h2>Escuela Cordoba Taichi</h2>

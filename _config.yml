@@ -111,7 +111,14 @@ defaults:
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: phlow     # Default author for posts
+      header: no
 
+  -
+    scope:
+      path: "agenda"
+      type: "posts"
+    values:
+      hidden: true
 
 
 #       _   __            _             __  _

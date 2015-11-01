@@ -16,7 +16,7 @@ widget2:
   title: "Tomá una clase"
   url: '/clases/'
   text: 'Empezá ahora y viví en persona lo que millones de personas en el mundo ya han experimentado: Zhineng Qigong revierte el proceso de envejecimiento, reduce el estrés, previene enfermedades y mejora la calidad de vida. '
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
+  image: 'tomaUnaClase.jpg'
 widget3:
   title: "Participá de una actividad"
   url: '/agenda/'

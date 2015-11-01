@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Blog Archive"
-teaser: "Check out all blog posts in my blog archive. Click on a headline to read the teaser."
+title: "Archivo del Blog"
+teaser: "Estos son todos los artículos del blog. Haz click sobre el título para leer el encabezado."
 breadcrumb: true
 header:
-   image_fullwidth: header_unsplash_8.jpg
+   image_fullwidth: "homeHeader.png"
 permalink: "blog/archive/"
 ---
 <div id="blog-index" class="row">
@@ -14,7 +14,8 @@ permalink: "blog/archive/"
 
 		<dl class="accordion" data-accordion>
 			{% assign counter = 1 %}
-			{% for post in site.posts limit:1000 %}
+      {% assign items = site.posts | where:"category","blog" %}
+			{% for post in items limit:1000 %}
 			<dd class="accordion-navigation">
 			<a href="#panel{{ counter }}"><span class="iconfont"></span> {% if post.subheadline %}{{ post.subheadline }} › {% endif %}<strong>{{ post.title }}</strong></a>
 				<div id="panel{{ counter }}" class="content">

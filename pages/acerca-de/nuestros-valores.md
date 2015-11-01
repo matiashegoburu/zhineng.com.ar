@@ -4,7 +4,7 @@ show_meta: false
 title: "Nuestros valores"
 teaser: "Estas son los valores que guía nuestra práctica."
 header:
-   image_fullwidth: "header_homepage_13.jpg"
+   image_fullwidth: "homeHeader.png"
 permalink: "/acerca-de/nuestros-valores/"
 ---
 <div style="text-align: justify;">

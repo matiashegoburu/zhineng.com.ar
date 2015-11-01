@@ -4,9 +4,10 @@ show_meta: false
 title: "Charla: El Qi y el Qigong"
 teaser: "Introducción a los conceptos del Qi y el Qigong"
 header:
-   image_fullwidth: "header_homepage_13.jpg"
+   image_fullwidth: "homeHeader.png"
 permalink: "/actividades/charlas/el-qi-y-el-qigong/"
 actividad: "charla-el-qi-y-el-qigong"
+gallery-image: "blog-gallery.png"
 duracion: 
 - "1 hora"
 requisitos: "No hay requisitos previos"

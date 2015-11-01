@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: page
 show_meta: false
 title: "Agenda"
 subheadline: "Eventos de Zhineng"
 teaser: "Estos son los eventos planificados de Zhineng Qigong"
 header:
-   image_fullwidth: "header_homepage_13.jpg"
+   image_fullwidth: "homeHeader.png"
 permalink: "/agenda/"
 format: blog-index
 ---
@@ -13,7 +13,7 @@ format: blog-index
 {% assign items = site.posts | where:"category","agenda" | sort:"cuando" %}
 {% assign index = 0 %}
 
-{% if items.size == 0 %}
+{% if items != '' %}
 No hay eventos programados
 {% else %}
  {% for item in items %}

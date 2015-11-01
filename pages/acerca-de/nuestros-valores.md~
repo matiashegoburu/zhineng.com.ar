@@ -1,8 +1,8 @@
 ---
 layout: page
 show_meta: false
-title: "¿Quiénes somos?"
-teaser: "Estas son las personas que forman parte de nuestro staff de profesionales y nuestros valores."
+title: "Nuestros valores"
+teaser: "Estas son los valores que guía nuestra práctica."
 header:
    image_fullwidth: "header_homepage_13.jpg"
 permalink: "/acerca-de/nuestros-valores/"

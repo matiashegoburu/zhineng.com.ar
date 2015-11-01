@@ -13,7 +13,7 @@ widget1:
   image: descrubriZhineng.jpg
   text: 'Un ejercicio fácil de aprender y de bajo impacto para relajar el cuerpo y la mente, mejorar tu salud y nutrir el espíritu. ¡Para todas las edades y sin requisitos previos!'
 widget2:
-  title: "Tomá una clase"
+  title: "Participá de una clase"
   url: '/clases/'
   text: 'Empezá ahora y viví en persona lo que millones de personas en el mundo ya han experimentado: Zhineng Qigong revierte el proceso de envejecimiento, reduce el estrés, previene enfermedades y mejora la calidad de vida. '
   image: 'tomaUnaClase.jpg'

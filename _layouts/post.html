@@ -1,0 +1,38 @@
+---
+layout: page
+category: "blog"
+subheadline: "Artículo"
+widget1:
+  title: "Descubrí Zhineng Qigong"
+  url: '/acerca-de/que-es-zhineng-qigong'
+  image: descrubriZhineng.jpg
+  text_: 'Un ejercicio fácil de aprender y de bajo impacto para relajar el cuerpo y la mente, mejorar tu salud y nutrir el espíritu. ¡Para todas las edades y sin requisitos previos!'
+widget2:
+  title: "Participá de una clase"
+  url: '/clases/'
+  text_: 'Empezá ahora y viví en persona lo que millones de personas en el mundo ya han experimentado: Zhineng Qigong revierte el proceso de envejecimiento, reduce el estrés, previene enfermedades y mejora la calidad de vida. '
+  image: 'tomaUnaClase.jpg'
+widget3:
+  title: "Participá de una actividad"
+  url: '/agenda/'
+  image: participaActividad.jpg
+  text_: 'Anotate para participar de alguna de nuestras múltiples actividades y profundiza tu experiencia: charlas, talleres y retiros.'
+---
+{{ content }}
+
+<div class="row t60">
+	{% if page.widget1.title %}
+		{% include bottom-post-widget widget=page.widget1 %}
+	{% endif %}
+
+
+	{% if page.widget2.title %}
+		{% include bottom-post-widget widget=page.widget2 %}
+	{% endif %}
+
+
+	{% if page.widget3.title %}
+		{% include bottom-post-widget widget=page.widget3 %}
+	{% endif %}
+</div><!-- /.row -->
+
