@@ -24,8 +24,8 @@ author: matias
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://matiashegoburu.github.io/zhineng.com.ar/'
-baseurl: ''
+url: 'https://matiashegoburu.github.io'
+baseurl: '/zhineng.com.ar'
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
