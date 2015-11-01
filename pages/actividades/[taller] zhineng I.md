@@ -4,9 +4,10 @@ show_meta: false
 title: "Zhineng I"
 teaser: "El método de Elevar y Volcar, y la Unión de los tres centros"
 header:
-   image_fullwidth: "homeHeader.png"
+   image_fullwidth: "/actividades/taller-zhineng-I/blog-banner-top.png"
 permalink: "/actividades/talleres/zhineng-I/"
 actividad: "taller-zhineng-I"
+gallery-image: "blog-gallery.png"
 duracion: 
  - "Formato 1: 3 horas"
  - "Formato 2: 1 jornada, dividida en 2 bloques de 4 horas (8 horas total)"

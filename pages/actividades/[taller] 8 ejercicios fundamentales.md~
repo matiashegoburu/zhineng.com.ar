@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: actividad
 show_meta: false
 title: "8 Ejercicios Fundamentales"
 subheadline: "Ejercicios introductorios"
@@ -8,6 +8,7 @@ header:
    image_fullwidth: "homeHeader.png"
 permalink: "/actividades/talleres/8-ejercicios-fundamentales/"
 actividad: "taller-8-ejercicios-fundamentales"
+gallery-image: "blog-gallery.png"
 duracion: 
 - "3 horas, 30 minutos"
 requisitos: "No hay requisitos previos"

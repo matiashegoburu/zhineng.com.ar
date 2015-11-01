@@ -48,4 +48,4 @@ permalink: "/acerca-de/que-es-zhineng-qigong/"
 <tr><td class="tr-caption" style="text-align: center;">Maestro Pang Ming</td></tr>
 </tbody></table>
 
-
+{% include dudas-general-widget %}

@@ -19,6 +19,8 @@ format: post
  <li><b>Requisitos previos:</b> {{ page.requisitos }} </li>
 </ul>
 
+{% include dudas-actividad-widget %}
+
 {% assign proximos = site.posts | where:"category","agenda" | where:"actividad",page.actividad | sort:"cuando","last" %}
 {% assign primero = true %}
 {% if proximos.size > 0 %}
@@ -38,5 +40,6 @@ format: post
   </ul>
  {% endif %}
 {% endif %}
+
 
 

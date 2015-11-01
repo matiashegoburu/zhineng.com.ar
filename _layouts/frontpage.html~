@@ -36,7 +36,7 @@ format: blog-index
 * Show next event in the agenda
 *
 {% endcomment %}
-{% assign evento = site.posts | where:"category","agenda" | sort:"cuando" | last %}
+{% assign evento = site.posts | where:"category","agenda" | sort:"cuando" | first %}
 {% unless evento == empty %}
     {% if evento.cuando > site.time %}
     <div class="row t30 b20 homepage">
@@ -76,10 +76,11 @@ format: blog-index
 *
 {% endcomment %}
 
-{% unless site.posts == empty %}
+{% assign items = site.posts | where:"category","blog" %}
+{% unless items == empty %}
     <div class="row t30 b20 homepage">
         <div class="small-12 columns">
-            {% for post in site.posts limit:1 %}
+            {% for post in items limit:1 %}
             {% if post.image.homepage %}
             <p>
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title escape_once }}"><img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title escape_once }}"></a>
@@ -100,7 +101,7 @@ format: blog-index
 
     <div class="row">
         <div class="medium-6 columns">
-            {% for post in site.posts limit:1 %}
+            {% for post in items limit:1 %}
             {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %}
             <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
             <p>

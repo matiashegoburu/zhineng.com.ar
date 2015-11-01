@@ -4,7 +4,7 @@ show_meta: false
 title: "Práctica: Encuentros de Autosanación"
 teaser: "Una técnica de Qigong simple y efectiva"
 header:
-   image_fullwidth: "homeHeader.png"
+   image_fullwidth: "/actividades/practica-encuentros-de-autosanacion/blog-banner-top.png"
 permalink: "/actividades/practicas/encuentros-de-autosanacion/"
 actividad: "practica-encuentros-de-autosanacion"
 gallery-image: "blog-gallery.png"

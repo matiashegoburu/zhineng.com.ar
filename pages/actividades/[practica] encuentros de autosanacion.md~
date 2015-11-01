@@ -7,6 +7,7 @@ header:
    image_fullwidth: "homeHeader.png"
 permalink: "/actividades/practicas/encuentros-de-autosanacion/"
 actividad: "practica-encuentros-de-autosanacion"
+gallery-image: "blog-gallery.png"
 duracion: 
 - "1 hora"
 requisitos: "No hay requisitos previos"

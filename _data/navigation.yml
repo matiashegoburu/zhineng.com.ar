@@ -38,9 +38,9 @@
   url: "/agenda/"
   side: left
 
-- title: "Galería"
-  url: "/galeria/"
-  side: left
+# - title: "Galería"
+#   url: "/galeria/"
+#   side: left
 
 - title: Blog
   url: "/blog/"

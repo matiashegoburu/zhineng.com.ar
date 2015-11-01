@@ -4,7 +4,7 @@ show_meta: false
 title: "Charla: El Yiyuanti"
 teaser: "Introducción a la conciencia y su rol en el Qigong"
 header:
-  image_fullwidth: actividades/charla-el-yiyuanti-large.jpg
+  image_fullwidth: "/actividades/charla-el-yiyuanti/blog-banner-top.png"
 permalink: "/actividades/charlas/el-yiyuanti/"
 actividad: "charla-el-yiyuanti"
 gallery-image: "blog-gallery.png"

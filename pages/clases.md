@@ -26,3 +26,7 @@ Lunes de 20.00 a 21.00<br />
 </ul>
 <a href="http://www.facebook.com/zhinengqigongcordoba">http://www.facebook.com/zhinengqigongcordoba</a><br />
 +54 351 15 246 8058
+
+{% include dudas-actividad-widget %}
+
+

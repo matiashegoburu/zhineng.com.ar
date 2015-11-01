@@ -4,7 +4,7 @@ show_meta: false
 title: "Práctica: Encuentros de luna llena"
 teaser: "Práctica grupal coordinada a nivel mundial"
 header:
-   image_fullwidth: "homeHeader.png"
+   image_fullwidth: "/actividades/practica-encuentros-de-luna-llena/blog-banner-top.png"
 permalink: "/actividades/practicas/encuentros-de-luna-llena/"
 actividad: "practica-encuentros-de-luna-llena"
 gallery-image: "blog-gallery.png"

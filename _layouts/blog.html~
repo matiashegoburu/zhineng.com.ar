@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: page
 format: blog-index
 # Don't index these pages dear Google.
 noindex: true
+header:
+   image_fullwidth: "homeHeader.png"
 ---
 <div class="row">
-	<div class="medium-8 columns t30">
+	<div class="medium-12 columns t30">
 		{% include pagination %}
 	</div><!-- /.medium-7.columns -->
-
-
-	<div class="medium-4 columns t30">
-		{% include sidebar %}
-	</div><!-- /.medium-5.columns -->
 </div><!-- /.row -->

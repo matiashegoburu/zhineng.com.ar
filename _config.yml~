@@ -16,11 +16,11 @@ slogan: "Paz, salud, relajación"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette."
+description: "Encuentros, talleres y practicas de Zhineng Qigong en Córdoba Argentina."
 
 # Main author of the website
 # See > authors.yml
-author: phlow
+author: matias
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
@@ -69,7 +69,7 @@ exclude:
 
 
 # The language setting is used in /includes/header.html for html-settings
-language: "en"
+language: "es-ar"
 
 
 # Used › default.html front-matter and comress.html
@@ -113,6 +113,12 @@ defaults:
       author: phlow     # Default author for posts
       header: no
 
+  -
+    scope:
+      path: "agenda"
+      type: "posts"
+    values:
+      hidden: true
 
 
 #       _   __            _             __  _
@@ -168,10 +174,10 @@ msapplication_tilecolor:                "#fabb00"
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
 og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
-og_locale:                          "en_EN"
+og_locale:                          "es_AR"
 og_type:                            "website"
-og_title:                           "Feeling Responsive – A Responsive Theme for Jekyll"
-og_description:                     "Feeling Responsive is built on the fabulous Foundation Framework and comes with lots of features to show your content right."
+og_title:                           "Zhineng Qigong Cordoba"
+og_description:                     "Encuentros, talleres y practicas de Zhineng Qigong en Córdoba Argentina"
 # og_url:                           ""
 # og_site_name:                     ""
 

@@ -1,21 +1,3 @@
----
-layout: page
-show_meta: false
-title: "Actividades"
-teaser: "Estas son nuestras actividades, ¡te invitamos a que participes!"
-header:
-   image_fullwidth: "homeHeader.png"
-permalink: "/actividades/"
----
-{% assign pages = site.pages | where:"layout","actividad" %}
-
-<div>
-  <ul class="small-block-grid-3">
-{% for page in pages %}
-  <li style="text-align: center;"><a href="{{ page.url }}"><img src="{{ site.url }}{{ site.baseurl }}/assets/img/actividades/{{page.actividad}}/{{ page.gallery-image }}" />{{ page.title }}</a></li>
-{% endfor %}
-  </ul>
-</div>
 
 <div>
   <h2>¿Tenés alguna duda?</h2>
@@ -24,10 +6,10 @@ permalink: "/actividades/"
 </div>
 
 <div id="modalContacto" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-  <h2 id="modalTitle">Tengo dudas sobre las actividades</h2>
+  <h2 id="modalTitle">¡Tengo dudas!</h2>
   <p>Completa tu correo electrónico y presiona el botón al final del formulario. ¡Así de simple! Nos comunicaremos contigo a la brevedad con todos los detalles. También puedes aprovechar y escribir tu propio mensaje. Responderemos a todas tus dudas.</p>
   <form id="formContacto" action="//formspree.io/info@zhineng.com.ar" method="POST">
-    <input type="hidden" name="_subject" value="Zhineng.com.ar - Dudas sobre actividades">
+    <input type="hidden" name="_subject" value="Zhineng.com.ar - Dudas">
     <div class="row">
       <div class="large-12 columns">
         <label>Tu correo: <input type="email" name="_replyto" placeholder="Ingresa tu dirección de correo electrónico"></label>
@@ -76,4 +58,3 @@ $(document).ready(function(){
     event.preventDefault();
   })
 })
-</script>

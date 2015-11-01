@@ -2,7 +2,7 @@
 layout: page
 show_meta: false
 title: "Actividades"
-teaser: "Estas son nuestras actividades"
+teaser: "Estas son nuestras actividades, ¡te invitamos a que participes!"
 header:
    image_fullwidth: "homeHeader.png"
 permalink: "/actividades/"
@@ -16,3 +16,6 @@ permalink: "/actividades/"
 {% endfor %}
   </ul>
 </div>
+
+{% include dudas-general-widget %}
+</script>

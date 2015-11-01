@@ -5,9 +5,10 @@ title: "8 Ejercicios Fundamentales"
 subheadline: "Ejercicios introductorios"
 teaser: "8 ejercicios para preparar el cuerpo y la mente"
 header:
-   image_fullwidth: "homeHeader.png"
+   image_fullwidth: "/actividades/taller-8-ejercicios-fundamentales/blog-banner-top.png"
 permalink: "/actividades/talleres/8-ejercicios-fundamentales/"
 actividad: "taller-8-ejercicios-fundamentales"
+gallery-image: "blog-gallery.png"
 duracion: 
 - "3 horas, 30 minutos"
 requisitos: "No hay requisitos previos"
