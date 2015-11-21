@@ -76,7 +76,7 @@ format: blog-index
 *
 {% endcomment %}
 
-{% assign items = site.posts | where:"category","blog" %}
+{% assign items = site.categories["blog"] %}
 {% unless items == empty %}
     <div class="row t30 b20 homepage">
         <div class="small-12 columns">

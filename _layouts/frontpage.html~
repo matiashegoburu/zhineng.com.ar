@@ -76,7 +76,7 @@ format: blog-index
 *
 {% endcomment %}
 
-{% assign items = site.posts | where:"category","blog" %}
+{% assign items = site.posts.categories["blog"] %}
 {% unless items == empty %}
     <div class="row t30 b20 homepage">
         <div class="small-12 columns">
@@ -114,7 +114,7 @@ format: blog-index
 
         <div class="medium-6 columns">
             <p><strong>{{ site.data.language.more_articles }}</strong></p>
-            {% include list-posts entries='3' offset='1' %}
+            {% include list-posts entries='3' offset='1' category='blog' %}
         </div><!-- /.medium-7.columns -->
     </div><!-- /.row -->
 {% endunless %}
